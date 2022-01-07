@@ -1,7 +1,7 @@
 body{
     font-family: 'Itim', cursive;
     margin: 0;
-    background-color: rgb(245, 203, 148);
+    background-color: rgb(238, 217, 189);
 
 }
 h1{
@@ -56,7 +56,7 @@ p{
     padding-right: 100px;
     padding-bottom: 30px;
 }
-#center{
+.center{
     text-align: center;
     color: rgb(255, 60, 0);
     font-size: 50px;
@@ -70,7 +70,7 @@ p{
     margin: 20px;
     padding: 100px 15px 15px 15px;
     border-radius: 15px;
-    background-color: rgb(235, 204, 164);
+    background-color: rgb(255, 253, 108);
 }
 #part-two{
     box-shadow: 10px 10px 20px rgb(0, 255, 149);
@@ -94,9 +94,17 @@ p{
      border-radius: 15px;
      background-color: rgb(115, 238, 226);
 }
+.optional{
+    width: 100%;
+    margin: 100px;
+
+}
+.optional img{
+    width: 100%;
+    
+}
 #last{
     background-color: black;
+    text-align: center
 }
-#last footer{
-    text-align: center;
-}
+ 
