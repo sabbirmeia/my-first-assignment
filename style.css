@@ -51,7 +51,7 @@ p{
 #part-one{
     background-image: url(images/mission.png);
     background-repeat: no-repeat;
-    box-shadow: 10px 10px 20px blue;
+    box-shadow: 10px 10px 20px rgb(255, 0, 255);
     background-size: 100px;
     background-position: left top;
     margin: 20px;
@@ -60,7 +60,7 @@ p{
     background-color: rgb(235, 204, 164);
 }
 #part-two{
-    box-shadow: 10px 10px 20px blue;
+    box-shadow: 10px 10px 20px rgb(0, 255, 149);
     background-image: url(images/vission.png);
     background-repeat: no-repeat;
     background-size: 100px;
