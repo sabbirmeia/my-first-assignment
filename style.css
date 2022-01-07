@@ -4,11 +4,15 @@ body{
 
 }
 h1{
-    font-size: 30px;
+    font-size: 40px;
+}
+p{
+    color: rgb(82, 81, 81);
+    margin-top: 40px;
 }
 .display-flix{
     display: flex;
-    margin-left: 80px
+    margin-left: 100px
 }
 .two-part{
     width: 100%;
@@ -25,4 +29,55 @@ h1{
 }
 .orange{
      color: purple;
+}
+.click{
+    text-decoration: none; 
+    background-image: linear-gradient(to right, rgb(117, 201, 230), darkblue);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: rgb(224, 185, 12);
+    size: 400px;
+    font-size: 20px;
+}
+#center{
+      text-align: center;
+      color: rgb(255, 60, 0);
+      font-size: 50px;
+}
+.hard-one{
+    margin-bottom: 50px;
+     
+}
+#part-one{
+    background-image: url(images/mission.png);
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 20px blue;
+    background-size: 100px;
+    background-position: left top;
+    margin: 20px;
+    padding: 100px 15px 15px 15px;
+    border-radius: 15px;
+    background-color: rgb(235, 204, 164);
+}
+#part-two{
+    box-shadow: 10px 10px 20px blue;
+    background-image: url(images/vission.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left top;
+    margin: 20px 50px ;
+    padding: 100px 15px 15px 15px;
+    border-radius: 15px;
+    background-color: rgb(179, 167, 223);
+}
+#part-three{
+     box-shadow: 10px 10px 20px blue;
+     background-image: url(images/goals.png);
+     background-repeat: no-repeat;
+     background-size: 100px;
+     background-position: left top;
+     margin: 20px;
+     padding: 100px 15px 15px 15px;
+     border-radius: 15px;
+     background-color: rgb(115, 238, 226);
 }
