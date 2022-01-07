@@ -1,6 +1,7 @@
 body{
-    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Itim', cursive;
     margin: 0;
+    background-color: rgb(245, 203, 148);
 
 }
 h1{
@@ -14,14 +15,15 @@ p{
     display: flex;
     margin-left: 100px
 }
-.two-part{
+.text-part{
     width: 100%;
     margin-top: 50px;
 }
-.two-part img{
+.text-part img{
     width: 80%;
     padding-bottom: 100px;
     margin-left: 100px;
+
 }
 .border{
     border-left: 3px solid orange;
@@ -39,14 +41,25 @@ p{
     size: 400px;
     font-size: 20px;
 }
-#center{
-      text-align: center;
-      color: rgb(255, 60, 0);
-      font-size: 50px;
-}
+
 .hard-one{
-    margin-bottom: 50px;
-     
+    margin-bottom: 50px;   
+}
+.sec{
+    width: 80%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin: 20px 100px 50px 0px;
+}
+.sec img{
+    width: 100%;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+#center{
+    text-align: center;
+    color: rgb(255, 60, 0);
+    font-size: 50px;
 }
 #part-one{
     background-image: url(images/mission.png);
@@ -80,4 +93,10 @@ p{
      padding: 100px 15px 15px 15px;
      border-radius: 15px;
      background-color: rgb(115, 238, 226);
+}
+#last{
+    background-color: black;
+}
+#last footer{
+    text-align: center;
 }
