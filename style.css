@@ -1,0 +1,28 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+    margin: 0;
+
+}
+h1{
+    font-size: 30px;
+}
+.display-flix{
+    display: flex;
+    margin-left: 80px
+}
+.two-part{
+    width: 100%;
+    margin-top: 50px;
+}
+.two-part img{
+    width: 80%;
+    padding-bottom: 100px;
+    margin-left: 100px;
+}
+.border{
+    border-left: 3px solid orange;
+    padding-left: 10px;
+}
+.orange{
+     color: purple;
+}
